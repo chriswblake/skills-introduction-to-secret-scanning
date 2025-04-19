@@ -77,7 +77,7 @@ jobs:
 
       - name: Build message - step finished
         id: build-message-step-finish
-        uses: skills/action-text-variables@v1
+        uses: skills/action-text-variables@v2
         with:
           template-file: skills-response-templates/step-feedback/step-finished-prepare-next-step.md
           template-vars: |
